@@ -1,0 +1,23 @@
+$fonColor: #81b300;
+$fontFamily: "Georgia", sans-serif;
+$backColor: #000;
+$backColorHeader: #fff;
+$autoMargin: 0 auto;
+$bottonRadius: 20px;
+$borderCollorSearch: #ddd;
+$colorformElement: #1f1f1f;
+
+@font-face {
+  font-family: Georgia;
+  src: url("../font/9605.ttf");
+}
+@font-face {
+  font-family: SocialIco;
+  src: url("../font/Socialico.ttf");
+}
+
+%linkHeader{
+  text-decoration: none;
+  font-family: $fontFamily;
+  color: $fonColor;
+}

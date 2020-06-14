@@ -1,0 +1,85 @@
+@import "variable";
+@import "bem/logo";
+@import "bem/social";
+@import "bem/nav";
+@import "bem/carousel";
+@import "bem/aboutUs";
+@import "bem/contactForm";
+@import "bem/project";
+body{
+  margin: 30px auto;
+  background: $backColor;
+  width: 100%;
+  height: 100%;
+}
+
+header{
+  width: 960px;
+  height: 135px;
+  background: $backColorHeader;
+  margin: $autoMargin;
+  border-top: $fonColor 5px solid;
+  padding: 0 30px;
+
+  .forC{
+    span{
+      font-size: 46px;
+      line-height: 46px;
+    }
+  }
+  .icon{
+    a{
+      text-decoration: none;
+      color: #1f1f1f;
+      font-size: 36px;
+      transition-duration: .5s;
+
+      &:hover{
+        color: white;
+      }
+    }
+
+  }
+  .link{
+    a{
+      &:hover{
+        @extend %linkHeader;
+        color: #0f0f0f;
+
+      }
+      &:focus{
+        @extend %linkHeader;
+        color: #0f0f0f;
+
+      }
+    }
+  }
+
+}
+nav{
+  width: 960px;
+  height: 70px;
+  margin: 0 auto;
+}
+main{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.carousel-indicators {
+  position: relative;
+  margin: 0;
+}
+
+.carousel-indicators li {
+  background-color: #333;
+    &:active{
+      background-color: #f2f2f2;
+
+  }
+}
+footer{
+  width: 960px;
+  height: 310px;
+  margin: 0 auto;
+}

@@ -1,0 +1,462 @@
+@font-face {
+  font-family: Georgia;
+  src: url("../font/9605.ttf");
+}
+@font-face {
+  font-family: SocialIco;
+  src: url("../font/Socialico.ttf");
+}
+header .link a:focus, header .link a:hover, .b-social__link {
+  text-decoration: none;
+  font-family: "Georgia", sans-serif;
+  color: #81b300;
+}
+
+.b-logo {
+  color: #333333;
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.b-logo_type {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.b-logo_positionLeft {
+  float: left;
+  margin-top: 36px;
+}
+
+.b-socil_positionRight {
+  float: right;
+}
+
+.b-social__icon {
+  width: 251px;
+  height: 49px;
+  background-color: #81b300;
+  display: flex;
+  justify-content: space-around;
+  font-family: "SocialIco", sans-serif;
+  align-items: center;
+}
+
+.b-social__icon_decor {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.b-social__linkHeader {
+  display: flex;
+  justify-content: space-around;
+}
+
+.b-social__linkHeader_position {
+  margin-top: 35px;
+}
+
+.b-social__link {
+  font-weight: 400;
+  line-height: 14.4px;
+  font-size: 12px;
+}
+
+.b-social__link_decor {
+  border-right: 1px #81b300 solid;
+  margin-right: 3px;
+  padding-right: 5px;
+}
+
+.b-nav {
+  background: #81b300;
+  padding: 0 30px;
+}
+
+.b-nav__mainMenu {
+  display: flex;
+  width: 548px;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.b-nav__mainMenu_position {
+  float: left;
+}
+
+.b-nav__item {
+  color: #fff;
+  font-family: "Georgia", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+.b-nav__item:hover {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  border-bottom: 1px white solid;
+  line-height: 15px;
+}
+
+.b-nav__item:focus {
+  text-decoration: none;
+  color: white;
+}
+
+.b-nav__searchForm {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.b-nav__searchForm_positionRight {
+  float: right;
+}
+
+.b-nav__searchString {
+  color: #7f7f7f;
+  font-family: "Georgia", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+  width: 219px;
+  height: 30px;
+  outline: none;
+  border-color: 1px #ddd solid;
+  box-sizing: border-box;
+}
+
+.b-nav__searchString_position {
+  margin-right: -10px;
+}
+
+.b-nav__searchButton {
+  width: 68px;
+  height: 30px;
+  color: #81b300;
+  font-family: #81b300;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 14.4px;
+  text-transform: uppercase;
+  border: 1px #ddd solid;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+}
+
+.b-carousel {
+  width: 100%;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-bottom: 2px #e2e2e2 solid;
+}
+
+.b-carousel__img {
+  width: 880px;
+  height: 360px;
+  object-fit: cover;
+  box-sizing: border-box;
+  border: 8px solid white;
+}
+
+.b-aboutUs {
+  width: 100%;
+  height: 300px;
+  padding: 50px 33px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 64px 18px 76px;
+  grid-column-gap: 27px;
+  grid-row-gap: 20px;
+  background: #fff;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.b-aboutUs__icon_position {
+  width: 100%;
+  height: 64px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.b-aboutUs__heading {
+  color: #81b300;
+  font-family: "Georgia", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: center;
+}
+
+.b-aboutUs__text {
+  color: #888888;
+  font-family: "Georgia", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20.8px;
+  overflow: hidden;
+}
+
+.b-aboutUs__firstWord {
+  padding-left: 15px;
+}
+
+.b-contactForm {
+  width: 100%;
+  height: 250px;
+  background-color: #3b3b3b;
+  padding: 41px 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 16px 1fr;
+  grid-row-gap: 20px;
+  grid-column-gap: 25px;
+}
+
+.b-contactForm__title {
+  color: #666;
+  font-family: "Georgia", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+  text-transform: uppercase;
+}
+
+.b-contactForm__contacts {
+  font-family: "Georgia", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #999999;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.b-contactForm__links {
+  padding-bottom: 13px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.b-contactForm__linkBlock {
+  width: 100%;
+  border-bottom: 1px solid #484848;
+}
+
+.b-contactForm__link {
+  color: #999;
+  font-family: "Georgia", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+.b-contactForm__link:hover {
+  text-decoration: none;
+  color: #cccccc;
+}
+
+.b-blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #999;
+  font-family: "Georgia", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.2px;
+  padding-bottom: 10px;
+}
+
+.b-blog__title {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 15.6px;
+}
+
+.b-contactForm__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+}
+
+.b-contactForm__entryField {
+  outline: none;
+  width: 100%;
+  height: 31px;
+  background: #1f1f1f;
+  color: #999;
+  font-family: "Georgia", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 31px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.b-contactForm__button {
+  width: 80px;
+  height: 31px;
+  background-color: #1f1f1f;
+  color: #81b300;
+  font-family: "Georgia", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 31px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.b-project {
+  width: 100%;
+  height: 431px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: white;
+}
+
+.b-project_item {
+  width: 210px;
+  height: 331px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.b-project__img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  object-position: center;
+  border: 5px solid #fff;
+  outline: 1px solid #e2e2e2;
+}
+
+.b-project__title {
+  color: #444;
+  font-family: "Georgia", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+}
+
+.b-project__text {
+  width: 208px;
+  height: 118px;
+  color: #878787;
+  font-family: "Georgia", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20.8px;
+  overflow: hidden;
+}
+
+.b-more {
+  color: #81b300;
+  font-family: "Georgia", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  transition-duration: 0.3s;
+}
+
+.b-more_position {
+  align-self: flex-end;
+}
+
+.b-more:hover {
+  color: #5c8000;
+  text-decoration: none;
+}
+
+.b-more:focus {
+  color: #81b300;
+  text-decoration: none;
+}
+
+body {
+  margin: 30px auto;
+  background: #000;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  width: 960px;
+  height: 135px;
+  background: #fff;
+  margin: 0 auto;
+  border-top: #81b300 5px solid;
+  padding: 0 30px;
+}
+header .forC span {
+  font-size: 46px;
+  line-height: 46px;
+}
+header .icon a {
+  text-decoration: none;
+  color: #1f1f1f;
+  font-size: 36px;
+  transition-duration: 0.5s;
+}
+header .icon a:hover {
+  color: white;
+}
+header .link a:hover {
+  color: #0f0f0f;
+}
+header .link a:focus {
+  color: #0f0f0f;
+}
+
+nav {
+  width: 960px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.carousel-indicators {
+  position: relative;
+  margin: 0;
+}
+
+.carousel-indicators li {
+  background-color: #333;
+}
+.carousel-indicators li:active {
+  background-color: #f2f2f2;
+}
+
+footer {
+  width: 960px;
+  height: 310px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */

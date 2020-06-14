@@ -1,0 +1,43 @@
+.b-socil_positionRight{
+  float: right;
+}
+.b-social__icon{
+  width: 251px;
+  height: 49px;
+  background-color:$fonColor;
+  display: flex;
+  justify-content: space-around;
+  font-family: "SocialIco", sans-serif;
+  align-items: center;
+}
+
+.b-social__icon_decor{
+  border-bottom-left-radius: $bottonRadius;
+  border-bottom-right-radius: $bottonRadius;
+}
+.b-social__linkHeader{
+  display: flex;
+  justify-content: space-around;
+}
+.b-social__linkHeader_position{
+margin-top: 35px;
+}
+
+.b-social__link{
+  @extend %linkHeader;
+  font-weight: 400;
+  line-height: 14.4px;
+  font-size: 12px;
+}
+
+.b-social__link_decor{
+  border-right: 1px $fonColor solid;
+  margin-right: 3px;
+  padding-right: 5px;
+}
+
+
+
+
+
+

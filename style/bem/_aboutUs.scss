@@ -1,0 +1,39 @@
+.b-aboutUs{
+  width: 100%;
+  height: 300px;
+  padding: 50px 33px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 64px 18px 76px;
+  grid-column-gap: 27px;
+  grid-row-gap: 20px;
+  background: #fff;
+  border-bottom: 1px solid #e2e2e2;
+}
+.b-aboutUs__icon_position{
+  width: 100%;
+  height: 64px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.b-aboutUs__heading{
+  color: $fonColor;
+  font-family: $fontFamily;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: center;
+}
+
+.b-aboutUs__text{
+  color: #888888;
+  font-family: $fontFamily;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20.8px;
+  overflow: hidden;
+}
+.b-aboutUs__firstWord{
+  padding-left:15px ;
+}
